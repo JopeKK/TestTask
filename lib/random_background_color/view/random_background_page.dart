@@ -49,7 +49,7 @@ class _RandomBackgroundPageState extends State<RandomBackgroundPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('Center', style: TextStyle(color: textColor)),
+                Text('Hello there', style: TextStyle(color: textColor)),
                 Text(
                   'Click counter: $clickCount',
                   style: TextStyle(color: textColor),
