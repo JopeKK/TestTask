@@ -1,0 +1,21 @@
+name: test_task
+description: "Test task"
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  solid_lints: ^0.3.1
+
+flutter:
+  uses-material-design: true
